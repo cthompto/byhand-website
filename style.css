@@ -1,0 +1,41 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  max-width: 700px;
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQoU2NkQAMvv9//L86pyIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDxtyfHjLg71QAAAABJRU5ErkJggg==
+   ) repeat;
+}
+a {
+  color: #0050C1;
+}
+a:hover, a:visited:hover {
+  color: #50C100;
+}
+a:visited {
+  color: #00B0C1;
+}
+h1 {
+  font-size: xx-large;
+  font-style: italic;
+  color: #50C100;
+}
+h2 {
+  font-size: x-large;
+  font-style: bold;
+  color: #00B0C1;
+}
+h3 {
+  font-size: larger;
+  font-style: bold;
+  color: #0050C1;
+}
+h4 {
+  font-size: large;
+  font-style: italic;
+  color: #DD6E42;
+}
+p {
+  font-size: medium;
+  color: #232C33;
+}
