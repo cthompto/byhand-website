@@ -47,10 +47,16 @@ h4 {
   font-style: italic;
   color: #232C33;
 }
-p {
+li, p {
   font-size: medium;
   color: #232C33;
 }
+
+img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 main {
   margin-left: auto;
   margin-right: auto;
@@ -67,7 +73,7 @@ main {
   text-align: left;
   padding-bottom: 20px;
   position: fixed;
-  top: 65px;
+  top: 55px;
   left: 30px;
 }
 
