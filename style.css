@@ -5,16 +5,18 @@ body {
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQoU2NkQAMvv9//L86pyIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDxtyfHjLg71QAAAABJRU5ErkJggg==
    ) repeat;
 }
+
 a {
-  color: #DD6E42;
+  color: #9c401c;
 }
 a:hover, a:visited:hover {
-  color: #50C100;
+  color: #337a00;
   text-decoration: underline;
 }
 a:visited {
-  color: #00B0C1;
+  color: #00838f;
 }
+
 .header-link {
   color: inherit;
   font-size: inherit;
@@ -25,16 +27,18 @@ a:visited {
 h1 {
   font-size: xx-large;
   font-style: italic;
-  color: #50C100;
+  color: #337a00;
   padding-bottom: 30px;
 }
+
 h2 {
   font-size: x-large;
   font-style: bold;
-  color: #00B0C1;
+  color: #00838f;
   padding-top: 30px;
   padding-bottom: 15px;
 }
+
 h3 {
   font-size: larger;
   font-style: bold;
@@ -42,12 +46,14 @@ h3 {
   padding-top: 15px;
   padding-bottom: 5px;
 }
+
 h4 {
   font-size: large;
   font-style: italic;
   color: #232C33;
 }
-li, p {
+
+li, p, code {
   font-size: medium;
   color: #232C33;
 }
