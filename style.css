@@ -81,6 +81,11 @@ h4 {
   color: #f3f5f7;
 }
 
+h5 {
+  font-size: medium;
+  color: #f3f5f7;
+}
+
 li, p, code {
   font-size: medium;
   /*Light Mode*/
@@ -89,9 +94,24 @@ li, p, code {
   color: #f3f5f7;
 }
 
+li, p {
+  padding-bottom: 10px;
+  line-height: 115%;
+}
+
+.quote p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 img {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.guide img {
+  display: block;
+  margin: auto;
 }
 
 main {
@@ -138,6 +158,17 @@ footer {
   font-style: italic;
   margin-top: 200px;
   text-align: right;
+}
+
+/*Back Button*/
+
+.back-button {
+  position: sticky;
+  top: 85%;
+  left: 87.5%;
+  text-align: right;
+  width: fit-content;
+  z-index: 1;
 }
 
 /* CSS Animation */
