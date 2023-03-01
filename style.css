@@ -8,8 +8,8 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQoU2
    ) repeat; */
   /*Dark Mode*/
   background-color: #000000;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAENJREFUKFNjZGBg+M9ABGAkSyEXFxfDt2/fsJoPNxGmCJdisEJ0SWyKGbm4uP5jsw5dMV7PIDuHoK9higkqhAUB0QoB7IAlH+jTItsAAAAASUVORK5CYII=
-  ) repeat;
+  /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAENJREFUKFNjZGBg+M9ABGAkSyEXFxfDt2/fsJoPNxGmCJdisEJ0SWyKGbm4uP5jsw5dMV7PIDuHoK9higkqhAUB0QoB7IAlH+jTItsAAAAASUVORK5CYII=
+  ) repeat; */
 }
 
 a {
@@ -96,7 +96,7 @@ li, p, code {
 
 li, p {
   padding-bottom: 10px;
-  line-height: 115%;
+  line-height: 125%;
 }
 
 .quote p {
