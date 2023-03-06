@@ -238,3 +238,106 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+/*Responsive*/
+@media (max-width: 800px) {
+  .twocolel {
+    flex: 100%;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    margin: auto;
+    padding: 5px 5px 40px;
+    text-align: center;
+  }
+
+  .nav a {
+    width: 100%;
+    padding-bottom: 25px;
+    font-weight: 600;
+  }
+
+  .nav h1 {
+    display: block;
+    text-align: left;
+    font-size: 17.5px;
+    font-style: italic;
+    animation: title_rotate2 5s linear infinite;
+    -ms-animation: title_rotate2 5s linear infinite;
+    -webkit-animation: title_rotate2 5s linear infinite;
+  }
+
+  .nav div {
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  main {
+    padding: 5%;
+    width: 90%;
+  }
+
+  .directional {
+    visibility: hidden;
+  }
+
+  .back-button {
+    background-color: #000000;
+    padding: 2px;
+  }
+
+  /* CSS Animation */
+  @keyframes title_rotate2 {
+    from {
+      transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @-webkit-keyframes title_rotate2 {
+    from {
+      transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @-moz-keyframes title_rotate2 {
+    from {
+      transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @-ms-keyframes title_rotate2 {
+    from {
+      transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @-o-keyframes title_rotate2 {
+    from {
+      transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+}
