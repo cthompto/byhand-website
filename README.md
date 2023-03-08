@@ -1,4 +1,5 @@
 # byhand.website
-A compilation of my public teaching examples, thoughts, and resources related to hand coded websites. View live at:
+
+An open guide to hand coding websites in HTML, CSS, and JavaScript. The site features guides, code examples, external resources and more. View live at:
 
 https://byhand.website
